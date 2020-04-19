@@ -1,0 +1,18 @@
+[
+  {
+    "prenom":"admin",
+    "nom":"admin",
+    "login":"admin",
+    "password":"milk96@",
+    "profile":"admin",
+    "photo":""
+  },
+  {
+    "prenom":"joueur",
+    "nom":"joueur",
+    "login":"admin",
+    "password":"milk99@",
+    "profile":"joueur",
+    "photo":"" 
+  }
+]
