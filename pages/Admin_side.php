@@ -8,9 +8,9 @@
      <div class="milieu">
          <div class="left">
           <div class="user_pic">
-						<div class="photo">
-								<img src="public/images/img5.jpg" alt="user-img" >
-                            </div>
+          <div  class="photo">
+        <img src="public/images/img5.jpg" alt="">
+          </div>
                 <span class="name" > Nom et Prenom</span>
           </div>
           <a href="index.php?lien=accueil&j=lister">
@@ -56,23 +56,22 @@
          </div>
          <div class="right">
          <?php
-    $p=isset($_GET["j"]); 
+    $p=isset($_GET["j"])?$_GET["j"]:'liste'; 
     switch($p)
     {
         case "liste" :
             require_once("pages/jeux.php");
             break;
-        case "inscription" :require_once("./Inscription_admin.php");
+        case "inscription" :require_once("pages/sinscrire.php");
         break;
         case "Question":require_once("pages/Question.php");
                break;
     case 'lister':
             require_once("pages/lister.php");
         break;
-        default: echo "page inexistante";
-        
+        default: echo "page inexistante";  
     }
     ?>
-         </div>
+     </div>
     </div>
 </div>
