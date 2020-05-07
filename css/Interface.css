@@ -1,0 +1,223 @@
+*
+{
+    margin : 0;
+    padding:0;
+
+}
+body 
+{width:100%;
+height: 100%;
+background: whitesmoke;
+
+}
+#interface
+{
+    width:70%;
+    height: 100%;
+   
+}
+#bienvenue
+{
+    height: 50px;
+    
+    width: 100%;
+   background: yellowgreen;
+}
+#bienvenue h2
+{
+    color:white;
+    text-align: center;
+}
+#Question
+{
+    width:100%;
+    height: 150px;
+   
+}
+#Question h2
+{
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 100px;
+    float: left;
+}
+#rempliquestion
+{
+    width: 40%;
+    height:100px;
+    float:left;
+    
+}
+#rempliquestion input[type="text"]
+{
+    width: 100%;
+    height: 100%;
+    margin-left: 200px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+#Score
+{
+    width: 100%;
+    height:60px;
+    
+}
+#score
+{
+    
+    width: 40%;
+    height:30px;
+    float:left;
+}
+#Score h2
+{
+    text-align: center;
+    float: left;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+#Score input[type="text"]
+{
+    width: 100%;
+    height: 100%;
+    margin-left: 238px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+#select
+{
+    width: 100%;
+    height: 50px;
+   
+
+
+}
+#select h2
+{
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 15px;
+    float: left;
+}
+#Choix
+{
+    width: 40%;
+    height: 30px;
+    
+    margin-left: 175px;
+    float: left;
+}
+.monselect
+{
+    width: 100%;
+    height: 100%;
+    padding-left: 230px;
+
+}
+#reponse
+{
+    width: 100%;
+    height: 50px;
+    
+}
+#reponse h2
+{
+    text-align: center;
+    float: left;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+#Reponse
+{
+    width: 40%;
+    height:30px ;
+    
+    float:left;
+    margin-left: 175px;
+}
+#Reponse input[type="text"]
+{
+    width: 10%;
+    height: 90%;
+}
+#Rep1
+{
+    width: 100%;
+    height: 50px;
+   
+}
+#Rep1 h2
+{
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 10px;
+    float: left;
+}
+.champs
+{
+    width: 60%;
+    height: 100%;
+    
+    float: left;
+    margin-left: 250px;
+}
+.champs input[type="text"]
+{
+    width: 50%;
+    height: 60%;
+}
+.champs input[type="checkbox"]
+{
+    width: 10%;
+    height: 40%;
+    margin-left: 10px;
+
+}
+.champs input[type="radio"]
+{
+    width:10%;
+    height:40%;
+}
+#Rep2
+{
+    width: 100%;
+    height: 50px;
+   
+}
+#Rep2 h2
+{
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 10px;
+    float: left;
+}
+#Rep3
+{
+    width: 100%;
+    height: 50px;
+    
+}
+#Rep3 h2
+{
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 10px;
+    float: left;
+}
+#action
+{
+    width: 50%;
+    height: 100px;
+    margin-left: 250px;
+}
+#action input[type="submit"]
+{
+    width: 75%;
+    height: 80%;
+    background: yellowgreen;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 10px;
+    border-radius: 10px;
+    color: white;
+}
